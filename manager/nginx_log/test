@@ -1,0 +1,6 @@
+206.189.180.4 - - [16/Jun/2020:22:11:59 +0900] "GET /? HTTP/1.1" 403 8 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0"
+206.189.180.4 - - [16/Jun/2020:22:12:15 +0900] "GET /manager/login?test=test HTTP/1.1" 403 8 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0"
+[16/Jun/2020:22:19:08 +0900]206.189.180.4isgetfucked"
+[16/Jun/2020:22:20:39 +0900] 206.189.180.4 "is get fucked"
+[16/Jun/2020:22:20:44 +0900] 206.189.180.4 "is get fucked"
+[16/Jun/2020:22:21:15 +0900] 206.189.180.4 is get fucked

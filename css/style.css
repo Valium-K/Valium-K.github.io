@@ -1,0 +1,142 @@
+* {
+  z-index: 8;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+  color: #d8d8d8;
+ /*border: gray 1px solid;*/
+}
+
+body {
+  background: linear-gradient(-45deg, #282931, #190e0e, #282931, #050404);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+  -webkit-font-smoothing: antialiased;
+ font-family: 'Amatic SC', cursive;
+  height: 100%;
+}
+a {
+  color: #bbbbc4;
+  text-decoration: none;
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+   transition: .3s;
+}
+a:hover {
+  /*font-size: 35px;*/
+  color: #fc3565;
+}
+h1 {
+  font-size: 90px;
+}
+h3 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+footer {
+    text-align: center;
+    bottom:0;
+    width:100%;
+    height: 15px;
+}
+.container {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  min-width: 350px;
+  max-width: 900px;
+  height: auto;
+}
+#divider {
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border-bottom: white 2px solid;
+  width: 412px;
+}
+#divider2 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+#sub-title {
+  color: #6f6f6f;
+  margin-top: 5px;
+  margin-bottom: 5px;
+} 
+
+#soundcloud {
+  margin-top: 4px;
+  width: 100%;
+  height: 125px;
+}
+.contents-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+/**************************for mobile************************/
+@media ( max-width: 520px ) {
+  body {
+    font-family: 'Varela Round', sans-serif;
+  }
+  a {
+    font-size: 20px;
+  }
+  a:hover {
+  /*font-size: 30px;*/
+  color: #fc3565;
+  }
+  h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 5px;
+  }
+  #sub-title {
+    font-size: 22px;
+  }
+  .contents-grid {
+    display: block;
+  }
+  .container {
+    width: auto;
+    min-width: 340px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+  #divider {
+    margin-bottom: 25px;
+    border-bottom: white 2px solid;
+    width: auto;
+  }
+  
+  footer {
+    font-size: 5px;
+  }
+}
+
+/********************* background animation *************************/
+@-webkit-keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@-moz-keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
+
+@keyframes Gradient {
+	0% {background-position: 0% 50%}
+	50% {background-position: 100% 50%}
+	100% {background-position: 0% 50%}
+}
