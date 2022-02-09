@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+  <meta name="robots" content="noindex" />
   <meta charset="UTF-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, minimum-scale=0.9, shrink-to-fit=no, user-scalable=no"> -->
   <title>About Me</title>
@@ -15,12 +16,15 @@
       background-color: rgba(100, 149, 237, 0.27);
       padding: 40px;
     }
-    div, p {
+    div, p, a {
       margin: 0;
       padding: 5px;
     }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    a {
+      text-decoration: none;
     }
     article > h5 {
       color: blueviolet;
@@ -36,8 +40,9 @@
 </head>
 <body class="bg-light">
 <header>
-  <img class="mt-5 rounded" src="me.png" width="100px" alt="내사진" style="display: inline; vertical-align: text-bottom" />
-  <h2 style="color: #313131; display: inline;padding: 10px">&nbsp;협업이 고픈 이승찬입니다.</h2>
+  <img class="mt-5 rounded" src="https://github.com/Valium-K/Valium-K.github.io/blob/gh-pages/portfolio/me.png?raw=true" width="100px" alt="내사진" style="display: inline; vertical-align: text-bottom" />
+  <h2 style="color: #313131; display: inline-block; padding: 10px;">안녕하세요 👋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> &nbsp;협업이 고픈 이승찬입니다.</h2>
+  
 </header>
 <div class="container">
   <section class="mt-4">
@@ -49,9 +54,11 @@
           <span class="fw-bold">About Me</span>
         </div>
         <div class="col">
-          <p>• 안녕하세요! 개발자가 되고싶은 이승찬이라고 합니다.</p>
-          <p>• 졸업 후 원하는 공부 및 프로젝트를 하며 실력을 키워왔습니다.</p>
+          <p>• 안녕하세요! Backend Developer 지망생 이승찬이라고 합니다.</p>
           <p>• <span class="highlight">강한 성장의 힘은 협업</span>이라 생각해 그에 맞는 준비를 해왔습니다.</p>
+          <p>• 관심있는 것들을 <span class="highlight">학습 & 요약</span> 후 Repository에 쌓아두는 것을 좋아합니다.</p>
+          <p>• 현재 리팩토링 실력을 기르는 중 입니다. 개발 시작부터 클린코드를 고려하며</p>
+              <p>서비스를 Flawless하게 개발 할 수 있는 실력이 되는것이 목표입니다.</p>
         </div>
       </div>
       <div class="row">
@@ -71,15 +78,15 @@
       <hr/>
       <div class="row">
         <div class="col-4">
-          <span class="fw-bold">BackEnd</span>
+          <span class="fw-bold">Backend</span>
         </div>
         <div class="col">
-          <p>• Java8</p>
+          <p>• Java 8</p>
           <p>• Spring Boot, Spring MVC, Spring Data JPA</p>
-          <p>• JPA, QueryDSL</p>
+          <p>• JPA</p>
           <p>• Junit5</p>
           <p>• Gradle</p>
-          <p>• Git</p>
+          <p>• Git/Github</p>
         </div>
       </div>
       <div class="row">
@@ -92,7 +99,7 @@
       </div>
       <div class="row">
         <div class="col-4">
-          <span class="fw-bold">FrontEnd</span>
+          <span class="fw-bold">Frontend</span>
         </div>
         <div class="col">
           <p>• HTML5, CSS3, JavaScript ES6</p>
@@ -100,14 +107,24 @@
       </div>
       <div class="row">
         <div class="col-4">
+          <span class="fw-bold">In progress</span>
+        </div>
+        <div class="col">
+          <p>• QueryDSL</p>
+          <p>• Spring Security</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
           <span class="fw-bold">E.T.C</span>
         </div>
         <div class="col">
-          <p>• Python3, C, C++</p>
+          <p>• Python3, C++</p>
         </div>
       </div>
     </article>
   </section>
+  <div class="mt-5"></div>
   <section class="mt-5">
     <article id="Projects">
       <h5>💻 Projects</h5>
@@ -115,18 +132,37 @@
       <div class="row">
         <div class="col-4">
           <span class="fw-bold">SweetMeme</span>
+          <br/>
+          <small>2021.09 ~ 현재</small>
+          <br/>
+          <small>분류: 개인 프로젝트</small>
         </div>
         <div class="col">
-          <p>• 쉬는시간 <span class="highlight">달콤한 밈 한조각</span>으로 기운 충전하고 가세요!</p>
-          <p>• <span class="highlight">여러 국가</span>의 사람들과 포스트를 업로드, 업보트!</p>
-          <p>• <span class="highlight">반응형 웹</span>으로 모바일에서도 편리합니다.</p>
+          <p>• SweetMeme은 콘텐츠 소비를 위한 플랫폼 서비스입니다.</p>
+          <p>• 현재 Linux (debian 10)에서 서비스 중입니다.</p>
+          <p>• 프로젝트를 <span class="highlight">반응형 웹</span>으로 구성하였습니다.</p>
       </div>
       <div class="row">
         <div class="col-4">
-          <span class="fw-bold">Details</span>
+          <span class="fw-bold">Github 스마트 분석/코드</span>
+        </div>
+        <div class="col">
+          <p>• Programers: <a href="https://programmers.co.kr/pr/lschan96_9195">https://programmers.co.kr/pr/lschan96_9195</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <span class="fw-bold">Source Code</span>
         </div>
         <div class="col">
           <p>• GitHub: <a href="https://github.com/Valium-K/sweet-meme">https://github.com/Valium-K/sweet-meme</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <span class="fw-bold">Service Page</span>
+        </div>
+        <div class="col">
           <p>• servicePage: <a href="https://valium.dev/sweetmeme/top">https://valium.dev/sweetmeme</a></p>
         </div>
       </div>
@@ -134,29 +170,43 @@
   </section>
   <section class="mt-5">
     <article id="MajorAndEducation">
-      <h5>🎓 Major & Education</h5>
+      <h5>🎓 Major & Education Timeline</h5>
       <hr/>
       <div class="row">
         <div class="col-4">
-          <span class="fw-bold">Major</span>
+          <span class="fw-bold">Study</span>
+          <br/>
+          <small>2021.05 ~ 현재</small>
         </div>
         <div class="col">
-          <p>• 컴퓨터 공학과 → 소프트웨어 공학과  (졸업)</p>
+          <p>• About: <a href="https://github.com/Valium-K/algorithm-study/tree/main/dev.valium.algorithm">Algorithm 요약 & 코드</a></p>
+          <p>• ToyProject: <a href="https://github.com/Valium-K/study-with-me-web-app">배운기술 숙달을 위한 프로젝트 & 요약 2</a></p>
+          <p>• ToyProject: <a href="https://github.com/Valium-K/SpringBookShop">배운기술 숙달을 위한 프로젝트 & 요약 1</a></p>
+          <p>• About: <a href="https://github.com/Valium-K/spring-data-jpa-practice">Spring Data JPA</a></p>
+          <p>• About: <a href="https://github.com/Valium-K/JPA-ORM">ORM (JPA)</a></p>
+          <p>• About: <a href="https://github.com/Valium-K/SpringCorePrinciple-Basic">Spring</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <span class="fw-bold">자격증 공부</span>
+          <br/>
+          <small>2021.02 ~ 2021.04</small>
+        </div>
+        <div class="col">
           <p>• <span class="highlight">정보처리기사</span> 자격증 보유</p>
         </div>
       </div>
       <div class="row">
         <div class="col-4">
-          <span class="fw-bold">Study</span>
+          <span class="fw-bold">Major</span>
+          <br/>
+          <small>2014.03 ~ 2021.02</small>
+          <br/>
+          <small>E.T.C: 해군 - 만기 전역</small>
         </div>
         <div class="col">
-          <p>• 김영한 - 스프링 핵심 원리 - 기본편</p>
-          <p>• 김영한 - 자바 ORM 표준 JPA 프로그래밍 - 기본편</p>
-          <p>• 김영한 - 실전! 스프링 데이터 JPA</p>
-          <p>• 김영한 - 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발</p>
-          <p>• 김영한 - 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화</p>
-          <p>• 백기선 - 스프링과 JPA 기반 웹 애플리케이션 개발</p>
-
+          <p>• <span class="highlight">소프트웨어 공학과</span> 학사</p>
         </div>
       </div>
     </article>
