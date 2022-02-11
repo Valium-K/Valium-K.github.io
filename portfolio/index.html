@@ -1,252 +1,296 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
   <meta name="robots" content="noindex" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.6, maximum-scale=1, minimum-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=.6, maximum-scale=.6, minimum-scale=.6" />
 
   <title>About Me</title>
 
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 
   <script>
     let disableNotificationIcon = () => {
-	  document.getElementById("notification").classList.add("invisible");
-	  document.getElementById("notification_help").classList.add("invisible");
-	}
+      document.getElementById("notification").classList.add("invisible");
+      document.getElementById("notification_help").classList.add("invisible");
+    }
   </script>
-  
+
   <style>
     header {
       text-align: center;
       background-color: rgba(100, 149, 237, 0.27);
       padding: 40px;
-	  min-width: 500px;
+      min-width: 500px;
     }
+
     div, p, a {
       margin: 0;
       padding: 5px;
     }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
+
     a {
       text-decoration: none;
     }
-    article > h5 {
-      color: blueviolet;
+
+    span {
+      padding: 1px 2px 1px 2px;
     }
+
+    article>h5 {
+      color:#900fdf;
+    }
+
     .container {
-      width: 80%;
-	  min-width: 550px;
-	  max-width: 1000px;
+      width: 85%;
+      min-width: 550px;
+      max-width: 1000px;
     }
+
     .highlight {
       background-color: rgba(100, 149, 237, 0.27);
     }
+
     @media (prefers-reduced-motion: reduce) {
       .collapsing {
         transition-property: height, visibility;
         transition-duration: .3s;
       }
     }
-	button:hover {
-	  transition: .3s all;
+
+    button:hover {
+      transition: .3s all;
     }
-    .btn:focus,.btn:active {
+
+    .btn:focus,
+    .btn:active {
       outline: none !important;
       box-shadow: none;
     }
   </style>
 </head>
+
 <body class="bg-light">
-<header>
-  <img class="mt-4 rounded" src="https://github.com/Valium-K/Valium-K.github.io/blob/gh-pages/portfolio/me.png?raw=true" width="100px" alt="[내 사진]" style="display: inline; vertical-align: text-bottom" />
-  <h2 style="color: #313131; display: inline-block; padding: 10px;">안녕하세요 👋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> &nbsp;협업이 고픈 이승찬입니다.</h2>
-</header>
-<div class="container">
-  <section class="mt-4">
-    <article id="about-me">
-      <h5>🧒 About Me</h5>
-      <hr/>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">About Me</span>
-        </div>
-        <div class="col-lg-8">
-          <p>• 안녕하세요! Backend Developer 지망생 이승찬이라고 합니다.</p>
-          <p>• <span class="highlight">강한 성장의 힘은 협업</span>이라 생각해 그에 맞는 준비를 해왔습니다.</p>
-          <p>• 관심있는 것들을 <span class="highlight">학습 & 요약</span> 후 Repository에 쌓아두는 것을 좋아합니다.</p>
-          <p>• 리팩토링 실력을 기르는 중 입니다. 개발 시작부터 클린코드를 고려하며</p>
-              <p>서비스를 Flawless하게 개발 할 수 있는 실력이 되는것이 목표입니다.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Contact</span>
-        </div>
-        <div class="col-lg-8">
-          <p>• GitHub: <a href="https://github.com/Valium-K" target='_blank'>https://github.com/Valium-K</a></p>
-          <p>• Email: <a href="mailto:lschan96@gmail.com" target='_blank'>lschan96@gmail.com</a></p>
-        </div>
-      </div>
-    </article>
-  </section>
-  <section class="mt-5">
-    <article id="Skill Set">
-      <h5>📑 Skill Set</h5>
-      <hr/>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Backend</span>
-        </div>
-        <div class="col-lg-8">
-          <p>• Java 8</p>
-          <p>• Spring Boot, Spring MVC, Spring Data JPA</p>
-          <p>• JPA</p>
-          <p>• Junit5</p>
-          <p>• Gradle</p>
-          <p>• Git/Github</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Frontend</span>
-        </div>
-        <div class="col-lg-8">
-          <p>• HTML5, CSS3, JavaScript ES6</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">General</span>
-        </div>
-        <div class="col-lg-8">
-          <p>• Python3</p>
-        </div>
-      </div>
-      <div class="row mt-3">
-	    <div class="col-5"><hr style="text-align:right" /></div>
-        <button type="button" class="btn btn-outline-dark btn-sm rounded-pill position-relative col-2" data-bs-toggle="collapse" data-bs-target="#etcCollapse" aria-expanded="false" aria-controls="collapseExample" onclick="disableNotificationIcon();">
-		In progress
-		<span id="notification" class="position-absolute top-0 start-100 translate-middle p-1 bg-danger rounded-circle">
-          <span class="visually-hidden">New alerts</span>
-        </span>
-		</button>
-        <div class="col-5"><hr style="text-align:right" /></div>
-      </div>
-      <div class="collapse mt-3" id="etcCollapse">
-        <div class="card card-body">
-          <div class="row">
-            <div class="col-4"><span class="fw-bold">Framework</span></div>
-          <div class="col-lg-8">
-            <p>• QueryDSL</p>
-            <p>• Spring Security</p>
+  <header>
+    <img class="mt-4 rounded"
+      src="https://github.com/Valium-K/Valium-K.github.io/blob/gh-pages/portfolio/me.png?raw=true" width="100px"
+      alt="[내 사진]" style="display: inline; vertical-align: text-bottom" />
+    <h2 style="color: #313131; display: inline-block; padding: 10px;">안녕하세요
+      👋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+      &nbsp;협업이 고픈 이승찬입니다.</h2>
+  </header>
+  <div class="container">
+    <section class="mt-4">
+      <article id="about-me">
+        <h5>🧒 About Me</h5>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <span class="fw-bold">About Me</span>
+          </div>
+          <div class="col-md-8">
+            <p>• 안녕하세요! Backend Developer가 되고 싶은 이승찬이라고 합니다.</p>
+            <p>• <span class="highlight rounded">강한 성장의 힘은 협업</span>이라 생각해 그에 맞는 준비를 해왔습니다.</p>
+            <p>• 관심있는 것들을 <span class="highlight rounded">학습 & 요약</span> 후 Repository에 쌓아두는 것을 좋아합니다.</p>
+            <p>• 리팩토링 실력을 기르는 중 입니다. 개발 시작부터 클린코드를 고려하며</p>
+            <p>서비스를 Flawless하게 개발 할 수 있는 실력이 되는것이 목표입니다.</p>
           </div>
         </div>
-	    <div class="row">
+        <div class="row">
           <div class="col-4">
-            <span class="fw-bold">DevOPs (WS)</span>
+            <span class="fw-bold">Contact</span>
           </div>
-          <div class="col-lg-8">
-            <p>• Nginx</p>
+          <div class="col-md-8">
+            <p>• GitHub: <a href="https://github.com/Valium-K" target='_blank'>https://github.com/Valium-K</a></p>
+            <p>• Email: <a href="mailto:lschan96@gmail.com" target='_blank'>lschan96@gmail.com</a></p>
           </div>
         </div>
-      </div>
-	</div>
-	<small id="notification_help" class="text-muted mt-3" style="display: block; text-align: center">버튼을 클릭해 상대적으로 숙달되지 않은 스킬셋 펼치기</small>
-    </article>
-  </section>
-  <section class="mt-5">
-    <article id="Projects">
-      <h5>💻 Projects</h5>
-      <hr/>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">SweetMeme</span>
-          <br/>
-          <small class="text-muted">2021.09 ~ 현재</small>
-          <br/>
-          <small class="text-muted">분류: 개인 프로젝트</small>
+      </article>
+    </section>
+    <section class="mt-5">
+      <article id="Skill Set">
+        <h5>📑 Skill Set</h5>
+        <hr />
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">Backend</span>
+          </div>
+          <div class="col-md-8">
+            <p>• Java 8</p>
+            <p>• Spring Boot, Spring MVC, Spring Data JPA</p>
+            <p>• JPA</p>
+            <p>• Junit5</p>
+            <p>• Gradle</p>
+            <p>• Git/Github</p>
+          </div>
         </div>
-        <div class="col-lg-8">
-          <p>• SweetMeme은 콘텐츠 소비를 위한 플랫폼 서비스입니다.</p>
-          <p>• 현재 Linux (debian 10)에서 서비스 중입니다.</p>
-          <p>• 프로젝트를 <span class="highlight">반응형 웹</span>으로 구성하였습니다.</p>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">스마트 분석/코드</span>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">Frontend</span>
+          </div>
+          <div class="col-md-8">
+            <p>• HTML5, CSS3, JavaScript ES6</p>
+          </div>
         </div>
-        <div class="col-lg-8">
-          <p>• Programers: <a href="https://programmers.co.kr/pr/lschan96_9195" target='_blank'>https://programmers.co.kr/pr/lschan96_9195</a></p>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">General</span>
+          </div>
+          <div class="col-md-8">
+            <p>• Python3</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Source Code</span>
+        <div class="row mt-3">
+          <div class="col">
+            <hr style="text-align:right" />
+          </div>
+          <button type="button" class="btn btn-outline-dark btn-sm rounded-pill position-relative col-2"
+            data-bs-toggle="collapse" data-bs-target="#etcCollapse" aria-expanded="false"
+            aria-controls="collapseExample" onclick="disableNotificationIcon();">
+            In progress
+            <span id="notification"
+              class="position-absolute top-0 start-100 translate-middle p-1 bg-danger rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+          <div class="col">
+            <hr style="text-align:right" />
+          </div>
         </div>
-        <div class="col-lg-8">
-          <p>• GitHub: <a href="https://github.com/Valium-K/sweet-meme" target='_blank'>https://github.com/Valium-K/sweet-meme</a></p>
+        <div class="collapse mt-3" id="etcCollapse">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-4"><span class="fw-bold">Framework</span></div>
+              <div class="col-md-8">
+                <p>• QueryDSL</p>
+                <p>• Spring Security</p>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-4">
+                <span class="fw-bold">DevOPs (WS)</span>
+              </div>
+              <div class="col-md-8">
+                <p>• Nginx</p>
+              </div>
+            </div> -->
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Service Page</span>
+        <small id="notification_help" class="text-muted mt-3" style="display: block; text-align: center">버튼을 클릭해 상대적으로
+          숙달되지 않은 스킬셋 펼치기</small>
+      </article>
+    </section>
+    <section class="mt-5">
+      <article id="Projects">
+        <h5>💻 Projects</h5>
+        <hr />
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">SweetMeme</span>
+            <br />
+            <small class="text-muted">2021.09 ~ 현재</small>
+            <br />
+            <small class="text-muted">분류: 개인 프로젝트</small>
+          </div>
+          <div class="col-md-8">
+            <p>• SweetMeme은 콘텐츠 소비를 위한 플랫폼 서비스입니다.</p>
+            <p>• 현재 Linux (debian 10)에서 서비스 중입니다.</p>
+            <p>• UX를 위해 반응형 웹으로 구성하였습니다.</p>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <span class="fw-bold">스마트 분석/코드</span>
+            </div>
+            <div class="col-md-8">
+              <p>• Programers: <a href="https://programmers.co.kr/pr/lschan96_9195"
+                  target='_blank'>https://programmers.co.kr/pr/lschan96_9195</a></p>
+              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;[ Github 스마트 분석/코드 보기 ] 버튼을 클릭해주세요.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <span class="fw-bold">Source Code</span>
+            </div>
+            <div class="col-md-8">
+              <p>• GitHub: <a href="https://github.com/Valium-K/sweet-meme"
+                  target='_blank'>https://github.com/Valium-K/sweet-meme</a></p>
+              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;프로젝트 상세 설명은 README.md에 있습니다.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <span class="fw-bold">Service Page</span>
+            </div>
+            <div class="col-md-8">
+              <p>• servicePage: <a href="https://valium.dev/sweetmeme/top"
+                  target='_blank'>https://valium.dev/sweetmeme</a></p>
+              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;서버가 100Mbps 무선 환경인 점 양해 부탁합니다.</small>
+            </div>
+          </div>
+      </article>
+    </section>
+    <section class="mt-5">
+      <article id="MajorAndEducation">
+        <h5>🎓 Major & Education Timeline</h5>
+        <hr />
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">Study</span>
+            <br />
+            <small class="text-muted">2021.05 ~ 현재</small>
+          </div>
+          <div class="col-md-8">
+            <p>• About: <a href="https://github.com/Valium-K/algorithm-study/tree/main/dev.valium.algorithm"
+                target='_blank'>Algorithm 요약 & 코드</a></p>
+            <p>• ToyProject: <a href="https://github.com/Valium-K/study-with-me-web-app" target='_blank'>배운기술 숙달을 위한
+                프로젝트 & 요약 2</a></p>
+            <p>• ToyProject: <a href="https://github.com/Valium-K/SpringBookShop" target='_blank'>배운기술 숙달을 위한 프로젝트 & 요약
+                1</a></p>
+            <p>• About: <a href="https://github.com/Valium-K/spring-data-jpa-practice" target='_blank'>Spring Data
+                JPA</a></p>
+            <p>• About: <a href="https://github.com/Valium-K/JPA-ORM" target='_blank'>ORM (JPA)</a></p>
+            <p>• About: <a href="https://github.com/Valium-K/SpringCorePrinciple-Basic" target='_blank'>Spring</a></p>
+          </div>
         </div>
-        <div class="col-lg-8">
-          <p>• servicePage: <a href="https://valium.dev/sweetmeme/top" target='_blank'>https://valium.dev/sweetmeme</a></p>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">자격증 공부</span>
+            <br />
+            <small class="text-muted">2021.02 ~ 2021.04</small>
+          </div>
+          <div class="col-md-8">
+            <p>• <span class="highlight rounded">정보처리기사</span> 자격증 보유</p>
+          </div>
         </div>
-      </div>
-    </article>
-  </section>
-  <section class="mt-5">
-    <article id="MajorAndEducation">
-      <h5>🎓 Major & Education Timeline</h5>
-      <hr/>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">Study</span>
-          <br/>
-          <small class="text-muted">2021.05 ~ 현재</small>
+        <div class="row ">
+          <div class="col-4">
+            <span class="fw-bold">Major</span>
+            <br />
+            <small class="text-muted">2014.03 ~ 2021.02</small>
+            <br />
+            <small class="text-muted">해군 만기 전역</small>
+          </div>
+          <div class="col-md-8">
+            <p>• <span class="highlight rounded">소프트웨어 공학과</span> 학사</p>
+          </div>
         </div>
-        <div class="col-lg-8">
-          <p>• About: <a href="https://github.com/Valium-K/algorithm-study/tree/main/dev.valium.algorithm" target='_blank'>Algorithm 요약 & 코드</a></p>
-          <p>• ToyProject: <a href="https://github.com/Valium-K/study-with-me-web-app" target='_blank'>배운기술 숙달을 위한 프로젝트 & 요약 2</a></p>
-          <p>• ToyProject: <a href="https://github.com/Valium-K/SpringBookShop" target='_blank'>배운기술 숙달을 위한 프로젝트 & 요약 1</a></p>
-          <p>• About: <a href="https://github.com/Valium-K/spring-data-jpa-practice" target='_blank'>Spring Data JPA</a></p>
-          <p>• About: <a href="https://github.com/Valium-K/JPA-ORM" target='_blank'>ORM (JPA)</a></p>
-          <p>• About: <a href="https://github.com/Valium-K/SpringCorePrinciple-Basic" target='_blank'>Spring</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <span class="fw-bold">자격증 공부</span>
-          <br/>
-          <small class="text-muted">2021.02 ~ 2021.04</small>
-        </div>
-        <div class="col-lg-8">
-          <p>• <span class="highlight">정보처리기사</span> 자격증 보유</p>
-        </div>
-      </div>
-      <div class="row ">
-        <div class="col-4">
-          <span class="fw-bold">Major</span>
-          <br/>
-          <small class="text-muted">2014.03 ~ 2021.02</small>
-          <br/>
-          <small class="text-muted">해군 만기 전역</small>
-        </div>
-        <div class="col-lg-8">
-          <p>• <span class="highlight">소프트웨어 공학과</span> 학사</p>
-        </div>
-      </div>
-    </article>
-  </section>
-  <div class="my-1"></div>
-</div>
+      </article>
+    </section>
+    <div class="my-5"></div>
+    <div class="my-5"></div>
+    <div class="mt-1"></div>
+  </div>
 </body>
 <footer class="text-center text-lg-start bg-light text-muted mt-5">
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
