@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
   <meta name="robots" content="noindex" />
@@ -14,6 +14,10 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <style>
+    body {
+      color: #212529;
+    }
+
     header {
       text-align: center;
       background-color: rgba(100, 149, 237, 0.27);
@@ -21,13 +25,16 @@
       min-width: 500px;
     }
 
-    div, p, a {
+    div,
+    p,
+    a {
       margin: 0;
       padding: 5px;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      ;
     }
 
     a {
@@ -39,13 +46,13 @@
     }
 
     article>h5 {
-      color:#900fdf;
+      color: #900fdf;
     }
 
     .container {
       width: 85%;
-      min-width: 550px;
-      max-width: 1000px;
+      min-width: 606px;
+      max-width: 900px;
     }
 
     .highlight {
@@ -73,12 +80,15 @@
 
 <body class="bg-light">
   <header>
-    <img class="mt-4 rounded"
-      src="https://github.com/Valium-K/Valium-K.github.io/blob/gh-pages/portfolio/me.png?raw=true" width="100px"
-      alt="[내 사진]" style="display: inline; vertical-align: text-bottom" />
-    <h2 style="color: #313131; display: inline-block; padding: 10px;">안녕하세요
-      👋&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-      &nbsp;협업이 고픈 이승찬입니다.</h2>
+    <img class="border border-dark border-3 rounded" src="https://github.com/Valium-K/Valium-K.github.io/blob/gh-pages/portfolio/ID.jpg?raw=true" alt="[내 사진]" width="120"
+      style="display: inline; vertical-align: text-bottom;" />
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <h2 class="m-0 p-0" style="display: inline-block; text-align: left">
+      <span class="display-4 fw-bold p-0 m-0">Backend Developer</span><br />
+      안녕하세요 👋<br />
+      협업이 고픈 이승찬입니다.
+      <span class="fs-5"></span>
+    </h2>
   </header>
   <div class="container">
     <section class="mt-4">
@@ -109,7 +119,7 @@
       </article>
     </section>
     <section class="mt-5">
-      <article id="Skill Set">
+      <article id="skill_set">
         <h5>📑 Skill Set</h5>
         <hr />
         <div class="row">
@@ -146,8 +156,8 @@
             <hr style="text-align:right" />
           </div>
           <button type="button" class="btn btn-outline-dark btn-sm rounded-pill position-relative col-2"
-            data-bs-toggle="collapse" data-bs-target="#etcCollapse" aria-expanded="false"
-            aria-controls="collapseExample" onclick="disableNotificationIcon();">
+            data-bs-toggle="collapse" data-bs-target="#etcCollapse" aria-expanded="false" aria-controls="etcCollapse"
+            onclick="disableNotificationIcon();">
             In progress
             <span id="notification"
               class="position-absolute top-0 start-100 translate-middle p-1 bg-danger rounded-circle">
@@ -198,36 +208,37 @@
             <p>• 현재 Linux (debian 10)에서 서비스 중입니다.</p>
             <p>• UX를 위해 반응형 웹으로 구성하였습니다.</p>
           </div>
-          <div class="row">
-            <div class="col-4">
-              <span class="fw-bold">스마트 분석/코드</span>
-            </div>
-            <div class="col-md-8">
-              <p>• Programers: <a href="https://programmers.co.kr/pr/lschan96_9195"
-                  target='_blank'>https://programmers.co.kr/pr/lschan96_9195</a></p>
-              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;[ Github 스마트 분석/코드 보기 ] 버튼을 클릭해주세요.</small>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">스마트 분석/코드</span>
           </div>
-          <div class="row">
-            <div class="col-4">
-              <span class="fw-bold">Source Code</span>
-            </div>
-            <div class="col-md-8">
-              <p>• GitHub: <a href="https://github.com/Valium-K/sweet-meme"
-                  target='_blank'>https://github.com/Valium-K/sweet-meme</a></p>
-              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;프로젝트 상세 설명은 README.md에 있습니다.</small>
-            </div>
+          <div class="col-md-8">
+            <p>• Programers: <a href="https://programmers.co.kr/pr/lschan96_9195"
+                target='_blank'>https://programmers.co.kr/pr/lschan96_9195</a></p>
+            <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;[ Github 스마트 분석/코드 보기 ] 버튼을 클릭해주세요.</small>
           </div>
-          <div class="row">
-            <div class="col-4">
-              <span class="fw-bold">Service Page</span>
-            </div>
-            <div class="col-md-8">
-              <p>• servicePage: <a href="https://valium.dev/sweetmeme/top"
-                  target='_blank'>https://valium.dev/sweetmeme</a></p>
-              <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;서버가 100Mbps 무선 환경인 점 양해 부탁합니다.</small>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">Source Code</span>
           </div>
+          <div class="col-md-8">
+            <p>• GitHub: <a href="https://github.com/Valium-K/sweet-meme"
+                target='_blank'>https://github.com/Valium-K/sweet-meme</a></p>
+            <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;프로젝트 상세 설명은 README.md에 있습니다.</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <span class="fw-bold">Service Page</span>
+          </div>
+          <div class="col-md-8">
+            <p>• servicePage: <a href="https://valium.dev/sweetmeme/top"
+                target='_blank'>https://valium.dev/sweetmeme</a></p>
+            <small class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;서버가 100Mbps 무선 환경인 점 양해 부탁합니다.</small>
+          </div>
+        </div>
       </article>
     </section>
     <section class="mt-5">
@@ -281,19 +292,20 @@
     <div class="my-5"></div>
     <div class="mt-1"></div>
   </div>
+  <footer class="text-center text-lg-start bg-light text-muted mt-5">
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      Designed by<a class="text-reset fw-bold" href="https://valium-k.github.io" target='_blank'>Valium-K</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script>
+    let disableNotificationIcon = () => {
+      document.getElementById("notification").classList.add("invisible");
+      document.getElementById("notification_help").classList.add("invisible");
+    }
+  </script>
 </body>
-<footer class="text-center text-lg-start bg-light text-muted mt-5">
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    Designed by<a class="text-reset fw-bold" href="https://valium-k.github.io" target='_blank'>Valium-K</a>
-  </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
-<script>
-  let disableNotificationIcon = () => {
-    document.getElementById("notification").classList.add("invisible");
-    document.getElementById("notification_help").classList.add("invisible");
-  }
-</script>
+
 </html>
