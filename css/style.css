@@ -54,17 +54,17 @@ footer {
   max-width: 900px;
   height: auto;
 }
-#divider {
+.divider-widh-border {
   margin-top: 6px;
   margin-bottom: 15px;
   border-bottom: white 2px solid;
   width: 412px;
 }
-#divider2 {
+.divider {
   margin-top: 40px;
   margin-bottom: 5px;
 }
-#sub-title {
+.sub-title {
   color: #6f6f6f;
   margin-top: 5px;
   margin-bottom: 5px;
